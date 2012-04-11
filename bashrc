@@ -44,10 +44,10 @@ proml
 
 # virtualenv and virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
+source /etc/bash_completion.d/virtualenvwrapper
 
 # auto-completion for git commands
-source /usr/share/doc/git/contrib/completion/git-completion.bash
+source /etc/bash_completion.d/git
 
 # Ruby Version Manager: Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
