@@ -1,3 +1,6 @@
+# Setting 256 colors for terminal
+export TERM=xterm-256color
+
 # User specific aliases and functions
 alias ls='ls -h --color=auto'
 alias ll='ls -l'
@@ -51,5 +54,3 @@ source /etc/bash_completion.d/git
 
 # Ruby Version Manager: Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-
